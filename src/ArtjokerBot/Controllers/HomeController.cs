@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Telegram.Core.OutComingRequests.Actions;
 
 namespace ArtjokerBot.Controllers
 {
@@ -10,6 +11,8 @@ namespace ArtjokerBot.Controllers
     {
         public IActionResult Index()
         {
+            Actions.SetWebHook();
+
             return View();
         }
 

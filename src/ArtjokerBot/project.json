@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-ArtjokerBot-d17d6bf4-c1da-401f-8d67-39f038da745f",
 
   "dependencies": {
@@ -41,10 +41,11 @@
       "version": "1.0.0-preview2-final",
       "type": "build"
     },
-    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc":  {
+    "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview2-final",
       "type": "build"
-    }
+    },
+    "Telegram.Core": "1.0.0-*"
   },
 
   "tools": {
